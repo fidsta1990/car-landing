@@ -1,1 +1,1 @@
-console.log("hello gulp file worked"),console.log("hello gulp file worked twice");
+const menu=document.querySelector(".menu"),closeBtn=document.getElementById("close"),sidebar=document.querySelector(".sidebar");menu.addEventListener("click",()=>{sidebar.classList.add("show")}),closeBtn.addEventListener("click",()=>{sidebar.classList.remove("show")});const search=document.getElementById("search"),searchBtn=document.querySelector(".s-bar");searchBtn.addEventListener("click",()=>{search.style.transform=`translateY(0),`});
